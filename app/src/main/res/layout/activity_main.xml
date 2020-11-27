@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="58dp"
+        android:text="Id"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="123dp"
+        android:text="Nama"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="183dp"
+        android:text="Alamat"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="248dp"
+        android:text="No. Hp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="307dp"
+        android:text="Jenis Produk"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_produk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="290dp"
+        android:text="Tambah" />
+
+    <Button
+        android:id="@+id/button_viewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginBottom="290dp"
+        android:text="Tampilkan" />
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="214dp"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginBottom="214dp"
+        android:text="Hapus" />
+</RelativeLayout>
